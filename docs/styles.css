@@ -19,11 +19,15 @@ div {
 }
 
 iframe {
-    margin: 3em;
+    max-width: 28em;
+    margin: 1em;
 }
 
 section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
+    padding-left: 0.7em;
 }
 
 header,
