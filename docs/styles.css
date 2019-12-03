@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+img {
+    display: inline;
+    max-width: 20em;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+iframe {
+    margin: 3em;
+}
+
+section {
+    text-align: center;
+}
+
+header,
+footer {
+    display: flex;
+    padding: 2em;
+    background-color: rgb(177, 255, 131);
+    justify-content: center;
+}
